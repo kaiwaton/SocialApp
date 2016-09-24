@@ -14,6 +14,9 @@
 		DC7E786F1D96AF8E00F10B1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7E786D1D96AF8E00F10B1B /* LaunchScreen.storyboard */; };
 		DC7E78771D96B08700F10B1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC7E78761D96B08700F10B1B /* GoogleService-Info.plist */; };
 		DC7E78791D96B13800F10B1B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = DC7E78781D96B13800F10B1B /* Podfile */; };
+		DC7E787E1D96C2E400F10B1B /* FancyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E787D1D96C2E400F10B1B /* FancyView.swift */; };
+		DC7E78811D96C72E00F10B1B /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E78801D96C72E00F10B1B /* Constant.swift */; };
+		DC7E78831D96C87D00F10B1B /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7E78821D96C87D00F10B1B /* RoundBtn.swift */; };
 		ED52B1B3E0B77A153211E971 /* Pods_social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52357F1CC609116C1F497C9D /* Pods_social.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		DC7E78701D96AF8E00F10B1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DC7E78761D96B08700F10B1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DC7E78781D96B13800F10B1B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		DC7E787D1D96C2E400F10B1B /* FancyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FancyView.swift; sourceTree = "<group>"; };
+		DC7E78801D96C72E00F10B1B /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		DC7E78821D96C87D00F10B1B /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +81,7 @@
 		DC7E78631D96AF8E00F10B1B /* social */ = {
 			isa = PBXGroup;
 			children = (
+				DC7E787F1D96C71500F10B1B /* UItil */,
 				DC7E787C1D96B5B800F10B1B /* Controller */,
 				DC7E787B1D96B5B000F10B1B /* View */,
 				DC7E787A1D96B51900F10B1B /* Model */,
@@ -98,6 +105,8 @@
 		DC7E787B1D96B5B000F10B1B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DC7E787D1D96C2E400F10B1B /* FancyView.swift */,
+				DC7E78821D96C87D00F10B1B /* RoundBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -108,6 +117,14 @@
 				DC7E78661D96AF8E00F10B1B /* SignInVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		DC7E787F1D96C71500F10B1B /* UItil */ = {
+			isa = PBXGroup;
+			children = (
+				DC7E78801D96C72E00F10B1B /* Constant.swift */,
+			);
+			name = UItil;
 			sourceTree = "<group>";
 		};
 		E6420A8D2FD6C0E71A81A41A /* Frameworks */ = {
@@ -245,7 +262,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC7E78671D96AF8E00F10B1B /* SignInVC.swift in Sources */,
+				DC7E78831D96C87D00F10B1B /* RoundBtn.swift in Sources */,
 				DC7E78651D96AF8E00F10B1B /* AppDelegate.swift in Sources */,
+				DC7E787E1D96C2E400F10B1B /* FancyView.swift in Sources */,
+				DC7E78811D96C72E00F10B1B /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
